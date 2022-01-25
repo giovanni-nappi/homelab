@@ -8,7 +8,7 @@ group_vars = YAML.load_file(File.join(__dir__, './group_vars/all.yml'))
 # After multi-env is supported, optimize it.
 cpus = 4
 memory = "10240"
-disk_size = "70GB"
+disk_size = "80GB"
 # ANCHOR_END: vm_specs
 
 Vagrant.configure("2") do |config|
