@@ -6,7 +6,7 @@ kube-prometheus-stack:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - &host grafana.khuedoan.com
+        - &host grafana.192-168-1-224.nip.io
       tls:
         - secretName: grafana-general-tls
           hosts:

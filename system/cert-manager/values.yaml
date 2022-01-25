@@ -6,4 +6,4 @@ cert-manager:
       enabled: true
 
 issuer:
-  email: mail@khuedoan.com
+  email: mail@192-168-1-224.nip.io

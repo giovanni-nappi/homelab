@@ -6,7 +6,7 @@ jellyfin:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host jellyfin.khuedoan.com
+        - host: &host jellyfin.192-168-1-224.nip.io
           paths:
             - path: /
               pathType: Prefix

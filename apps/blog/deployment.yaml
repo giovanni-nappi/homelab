@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
         - name: blog
-          image: registry.khuedoan.com/blog:latest
+          image: registry.192-168-1-224.nip.io/blog:latest
           imagePullPolicy: Always
